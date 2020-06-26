@@ -32,16 +32,16 @@ class Personagem extends Animacao{
     estaColidindo(inimigo) {
         const precisaoHitX =  25
         const precisaoHitY = 15
-        const precisao =  0.6
+        const precisao =  0.7
 
-       // Linhas abaixo pra testar a o Hit da colisão entre personagem e inimigo
-       //  noFill()
-       // rect(
-       //     this.x + precisaoHitX,  this.y + precisaoHitY,   /*posição personagem */
-       //     this.largura * precisao, this.altura * precisao, /* tamanho personagem */);
-       // rect(
-       //     inimigo.x + precisaoHitX, inimigo.y + precisaoHitY, /*posição inimigo*/
-       //     inimigo.largura * precisao, inimigo.altura * precisao /* tamanho inimigo*/);
+        //Linhas abaixo pra testar a o Hit da colisão entre personagem e inimigo
+        //noFill()
+        //rect(
+        //     this.x + precisaoHitX,  this.y + precisaoHitY,   /*posição personagem */
+        //     this.largura * precisao, this.altura * precisao, /* tamanho personagem */);
+        // rect(
+        //     inimigo.x + precisaoHitX, inimigo.y + precisaoHitY, /*posição inimigo*/
+        //     inimigo.largura * precisao, inimigo.altura * precisao /* tamanho inimigo*/);
 
         const colisao  = collideRectRect(
             this.x + precisaoHitX,  this.y + precisaoHitY,   /*posição personagem */
