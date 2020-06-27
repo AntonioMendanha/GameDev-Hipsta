@@ -6,7 +6,10 @@ let imagemPersonagem;
 let imagemInimigo;
 let imagemInimigoGrande;
 let imagemInimigoVoador;
+let imagemVida;
+
 let jogo;
+let fita;
 
 let cenaAtual = 'telaInicial';
 let cenas;
@@ -16,6 +19,7 @@ let botaoGerenciador;
 let cenario;
 let somDoJogo;
 let personagem;
+let vida;
 let somDoPulo;
 let inimigo;
 let inimigoGrande;

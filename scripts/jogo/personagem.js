@@ -7,8 +7,9 @@ class Personagem extends Animacao{
         this.y = this.yInicial;
         this.velocidadeDoPulo = 0;
         this.gravidade = 6;
-        this.alturaDoPulo = - 50
-        this.pulos = 0
+        this.alturaDoPulo = - 50;
+        this.pulos = 0;
+        this.invencivel = false;
     }
 
     pula(){
@@ -29,7 +30,17 @@ class Personagem extends Animacao{
     
     }
 
+    tornarInvencivel() {
+        this.invencivel = true;
+        setTimeout(() => {
+            this.invencivel = false
+        }, 1000)
+    }
+
     estaColidindo(inimigo) {
+        if(this.invencivel) {
+            return false
+        }
         const precisaoHitX =  25
         const precisaoHitY = 15
         const precisao =  0.7
