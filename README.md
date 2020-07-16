@@ -24,6 +24,9 @@ This project was developed with the following technologies:
 -  [p5][p5]
 -  [VS Code][vc]
 
+:game: Play Here
+[GameDev-Hipsta]
+
 Commit (pt-br) <br>
 <p>
 1º - Criação da base principal do jogo: Cenário, personagem, inimigos e trilha sonora
